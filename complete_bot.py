@@ -23,7 +23,7 @@ async def on_message(message):
     elif message.content.startswith('$pasw'):
         await message.channel.send("Password kamu " + gen_pass(10))
     elif message.content.startswith('$deleteme'):
-        await message.channel.send('Goodbye in 3 seconds...', delete_after=3.0)
+        await message.channel.send('Goodbye in 3 seconds...', delete_after=3.0) #ini untuk menghapus pesan
     else:
         await message.channel.send(message.content)
 
