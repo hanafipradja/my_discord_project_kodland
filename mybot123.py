@@ -23,5 +23,4 @@ async def heh(ctx, count_heh = 5):
 async def password(ctx):
     await ctx.send(gen_pass(10))
 
-
-bot.run("TOKEN RAHASIA ADA DI SINI")
+bot.run("TOKEN RAHASIA ADA DI SINI") #Usahakan jangan simpen token asli!
